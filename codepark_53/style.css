@@ -1,0 +1,47 @@
+body {
+    display: flex;
+}
+
+h1 {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 50px 30px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(209, 178, 94);
+    border-radius: 20px;
+}
+
+div, h2{
+    align-items: center;
+}
+
+div, p{
+    margin: 5px;
+}
+
+h1:hover{
+    color: cadetblue;
+    transition: 0.5s;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
+
+h2, p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+strong {
+    color: rgb(180, 23, 23);
+}
+
+strong:hover{
+    color: rgb(206, 103, 35);
+    transition: 0.5s;
+}
